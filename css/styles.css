@@ -1,0 +1,156 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.container {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.image {
+  width: 50%;
+  margin-left: 20%
+  animation-name: mymove;
+  animation-duration: 4s;
+  animation-direction: normal;
+}
+@keyframe mymove{
+0% {transform: rotate(0deg)}
+50% {transform: rotate(10deg)}
+100% {transform: rotate(20deg)}
+
+}
+
+/* Navigation bar */
+.navbar {
+  margin: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Ubuntu'
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features section */
+#features {
+  padding: 5%;
+  background-color: white;
+
+}
+
+h3 {
+  margin-top: 5px !important;
+  font-family: 'Ubuntu';
+  font-weight: bold !important;
+  font-size: 2rem !important;
+}
+
+p {
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  color: grey;
+}
+
+.features {
+  padding: inherit;
+  background-color: white;
+}
+
+.yes {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* Testimonials section */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem !important;
+  line-height: 1.5 !important;
+}
+.testimonials-image{
+  width: 20%;
+  border-radius: 100%;
+  margin-top: 30px;
+
+}
+/* Press section */
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing-section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+/* Call to action */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-h2{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+/* Footer */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 10px 20px;
+}
